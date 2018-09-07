@@ -6,7 +6,7 @@ namespace StructsAndEnums
     {
         private int year;
         private Month month;
-        private int day;
+        private readonly int day;
 
         public Date(int ccyy, Month mm, int dd)
         {
